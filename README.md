@@ -41,7 +41,7 @@ Grounded-SAM, ControlNet, Instant Mesh 등을 통합하여 자동화된 처리 �
 
 ### main
 - `main.py`: 전체 파이프라인 실행 엔트리포인트
-- `gradio.py`: Gradio UI를 통해 파이프라인 실행을 원하는 경우 사용
+- `gradio_demo.py`: Gradio UI를 통해 파이프라인 실행을 원하는 경우 사용
 - `parsing.py`: 프롬프트 파싱 및 가공 코드.
 - `preprocess.py`: 이미지 업스케일 밎 전처리.
 
@@ -62,12 +62,20 @@ Grounded-SAM, ControlNet, Instant Mesh 등을 통합하여 자동화된 처리 �
 
 ## ⚙️ 실행 환경 및 방법
 
+- 저장소를 clone 하고, 해당 폴더로 이동합니다.
+
+```
+git clone https://github.com/Daydong/PA3T2
+cd PA3T2
+```
+
 ### 1. 환경 설정
 
 - 기준 환경은, Ubuntu-20.04, RTX 4090 기준으로 구성되었습니다.
 - 필요한 Conda 환경은 아래와 같습니다. 각 환경은 `/envs` 폴더에 있는 `.yml` 파일을 통해 설치할 수 있습니다.
 
 ```bash
+cd env
 conda env create -f envs/GroundedSam_env.yml
 conda env create -f envs/control_env.yml
 conda env create -f envs/instantmesh_env.yml
@@ -102,7 +110,7 @@ python main.py --input input_dir/your_image.jpg --prompt "A chair with a soft gr
 전체 파이프라인 gradio UI로 실행:
 ```
 conda activate pa3t2
-python gradio.py
+python gradio_demo.py
 ```
 
 

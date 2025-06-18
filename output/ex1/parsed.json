@@ -1,0 +1,9 @@
+{
+  "object": "chair",
+  "parts": [
+    {
+      "part_name": "seat",
+      "style": "soft green fabric"
+    }
+  ]
+}
