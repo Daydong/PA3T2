@@ -15,7 +15,7 @@ Grounded-SAM, ControlNet, Instant Mesh 등을 통합하여 자동화된 처리 �
 |--------|---------------------------------------------|--------------------------------------|
 | 이다예(리더)   | [@Daydong](https://github.com/Daydong) | 선행 연구 검토, 모듈 & 실험 설계 및 구현, 결과 분석 및 정리     |
 | 이상은 | [@bingo4s](https://github.com/bingo4s)       | 선행 연구 검토, Baseline 구현 및 관리, 결과 분석 및 정리 |
-| 이상은 | [@jiu-jung](https://github.com/jiu-jung)     | 선행 연구 검토, Baseline 구현 및 관리, 결과 분석 및 정리           |
+| 정지우 | [@jiu-jung](https://github.com/jiu-jung)     | 선행 연구 검토, Baseline 구현 및 관리, 결과 분석 및 정리           |
 
 ---
 
@@ -128,5 +128,5 @@ python gradio_demo.py
 
 - [Grounded-SAM (IDEA-Research)](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 - [ControlNet (lllyasviel)](https://github.com/lllyasviel/ControlNet)
-- [Instant Meshes](https://github.com/wjakob/instant-meshes)
+- [Instant Meshes](https://github.com/TencentARC/InstantMesh)
 - [Ollama (by ollama.ai)](https://ollama.com)
