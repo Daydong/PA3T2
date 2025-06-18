@@ -128,5 +128,5 @@ python gradio_demo.py
 
 - [Grounded-SAM (IDEA-Research)](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 - [ControlNet (lllyasviel)](https://github.com/lllyasviel/ControlNet)
-- [Instant Meshes](https://github.com/TencentARC/InstantMesh)
+- [InstantMesh](https://github.com/TencentARC/InstantMesh)
 - [Ollama (by ollama.ai)](https://ollama.com)
